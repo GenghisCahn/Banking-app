@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>BestBank</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <header>
+                <img src="assets/bestbank_logo.png">
+            </header>
+            <nav>
+                <a href="#" id="home-btn">Home</a>
+                <a href="#" id="accounts-btn">Accounts</a>
+                <a href="#">Payments</a>
+                <a href="#">Financing</a>
+                <a href="#">Stocks</a>
+            </nav>
+            <div class="btn-container">
+                <button>Pay</button>
+                <button>Transfer</button>
+            </div>
+            <section class="flex">
+                <section id="accounts-container" class="accounts-container hidden">
+                    <h2>Accounts</h2>
+                    <section id="accounts-el" class="accounts-el">
+                        <!-- Accounts section rendered here -->
+                    </section>
+                </section>
+                <section id="spendings-container" class="spendings-container hidden">
+                    <h2>Spendings</h2>
+                    <section id="spendings-el" class="spendings-el">
+                        <!-- Spendings section rendered here -->
+                    </section>
+                </section>
+            </section>
+            <section>
+                <div id="welcome-message" class="welcome-message">
+                    <h2>Hi! Click on the accounts tab to view your accounts!</h2>
+                <div>
+            </section>
+        </main>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>

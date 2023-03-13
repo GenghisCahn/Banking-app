@@ -1,0 +1,149 @@
+/*
+COLOR PALETTE
+
+BLACK: #000000
+
+WHITE: #FFFFFF
+LIGHT: #FDF7F4
+
+ORANGE: #FFD18C
+DARK ORANGE: #FFA724
+*/
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background: #FDF7F4;
+}
+
+main {
+    width: 80%;
+    min-width: 600px;
+    margin: 20px auto;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-weight: 400;
+    background: #FFD18C;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+img {
+    width: 350px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    font-weight: 700;
+    width: 200px;
+    background: #ffffff;
+    border-radius: 50px;
+    border: 4px solid #FFA724;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover,
+button:active {
+    background: #FFA724;
+}
+
+
+p {
+    font-weight: 700;
+}
+
+/** Accounts section **/
+
+
+.flex {
+    display: flex;
+    width: 100%;
+    
+}
+
+.accounts-container, .spendings-container {
+    flex: 1;
+    padding: 20px;
+    width: 50%;
+    min-width: 300px;
+}
+
+.accounts-container h2{
+    text-align: left;
+}
+
+.accounts-el {
+    
+}
+
+.accounts-inner {
+    background: #ffffff;
+    border: solid 4px #FFA724;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.accounts-inner:hover,
+.accounts-inner:active {
+    background: #FFA724;
+}
+
+
+/** Spendings section **/
+
+.spendings-inner {
+ width: var(--width);
+ --width: 100%;
+}
+
+.spendings-individual {
+    margin: 10px;
+    background: #FFD18C;
+    padding: 0px 10px; 
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+/** welcome message **/
+
+.welcome-message {
+    text-align: center;
+    padding: 50px;
+}
+
+
+/** effects **/
+
+.hidden {
+    display: none;
+}
